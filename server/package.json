@@ -1,6 +1,7 @@
 {
     "name": "expense-management-proxy",
     "version": "1.0.0",
+    "type": "commonjs",
     "description": "Backend proxy for Anthropic API calls",
     "main": "server.js",
     "scripts": {
