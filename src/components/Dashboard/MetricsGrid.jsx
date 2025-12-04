@@ -15,7 +15,7 @@ const MetricsGrid = ({ metrics, monthlyIncome }) => {
                 iconColor="text-red-400"
             />
             <MetricCard
-                title="Monthly EMI"
+                title="Monthly EMIs"
                 value={formatCurrency(metrics.monthlyEMI)}
                 subtext={`+ ${formatCurrency(metrics.recurringTotal)} recurring`}
                 icon={Calendar}
